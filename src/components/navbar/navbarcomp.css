@@ -1,0 +1,18 @@
+.navbarTitle {
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px !important;
+}
+
+.topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .color-nav {
+    background-color:#D6CCA9;
+  }

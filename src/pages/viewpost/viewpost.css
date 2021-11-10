@@ -1,0 +1,56 @@
+.vPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.vPostWrapper {
+    text-align: center;
+    padding: 0px 15px;
+    font-size: 22px;
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+}
+
+.viewPostDesc {
+    font-size: 20px;    
+    padding: 20px;
+    width: 75vh;
+    height: 50vh;
+    border: 1px solid gray;
+}
+
+.vTitle {
+    margin-bottom: 15px;
+}
+
+.vUser {
+    margin-left: 10px;
+    color: black;
+}
+
+.vIcon {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.vPostImg {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.viewPostBtn {
+    margin-top: 20px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    font-size: 20;
+}

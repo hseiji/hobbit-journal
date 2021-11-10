@@ -1,0 +1,35 @@
+.s {
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    margin: 20px 40px;
+    border: none;
+}
+
+.s-img {
+    flex: 1;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.s-desc {
+    flex: 11;
+    padding: 0px 15px;
+    font-size: 22px;
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+}
+
+.s-user {
+    font-weight: 400;
+    color: black;
+}
+
+.s-date {
+    margin-left: 20px;
+    font-size: 15px;
+    color: gray;
+}

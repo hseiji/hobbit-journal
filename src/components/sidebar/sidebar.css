@@ -1,0 +1,55 @@
+.sbar {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: #ddd7cf;
+}
+
+.sbarItem {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+    align-items: center;
+    padding: 30px;
+}
+
+.sbarItem > img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sbarItem > p {
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+.sbarTitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.sbarList {
+    /* display: flex;
+    flex-direction: column; */
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.sbarListItem {
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
